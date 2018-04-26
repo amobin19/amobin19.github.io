@@ -8,30 +8,28 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
-  .bg-1 { 
-      background-color: #1abc9c;
-      color: #ffffff;
+  #box1 { 
+      background-color: orange;
+      color: white;
   }
-  .bg-2 { 
-      background-color: #474e5d;
-      color: #ffffff;
-  }
-  .bg-3 { 
-      background-color: #ffffff;
-      color: #555555;
-  }
-  .container-fluid {
-      padding-top: 70px;
-      padding-bottom: 70px;
+  #box2 { 
+      background-color: blue;
+      color: white;
   }
   </style>
 </head>
 <body>
 
-<div class="container-fluid bg-1 text-center">
-  <h3>Who Am I?</h3>
-  <img src="pfp.jpeg" class="img-circle" alt="Bird" width="350" height="350">
-  <h3>A Computer Engineeri</h3>
+<div class="container-fluid text-center" id="box1" style="padding-top: 100px; padding-bottom: 100px">
+  <h3 style="margin-bottom: 25px">Who Am I?</h3>
+  <img src="pfp.jpeg" class="img-circle" alt="Bird" width="250" height="250" style="margin-bottom: 25px">
+  <h3>An Undergraduate Computer Engineering Student at the University of Virginia</h3> 
+</div>
+
+<div class="container-fluid text-center" id="box2" style="padding-top: 100px; padding-bottom: 100px">
+  <h3 style="margin-bottom: 25px">More info? Click the link below!</h3>
+  <a href="resume.pdf">My Resume</a>
+
 </div>
 
 </body>
