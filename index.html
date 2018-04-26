@@ -1,11 +1,161 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Ayman's Web Page</title>
+	<title>Tony Stark Resume</title>
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lora" />
+		<style type="text/css">
+			header {
+        		background-color: red;
+        		color: white;
+        		font-family: Lobster; 
+        		font-size: 20px;
+        		padding: 25px;
+        		border-radius: 20px;
+        		box-shadow: black 4px 4px 4px;
+        		overflow: hidden;
+        		position: static;
+           	}
+           	#container{
+				background-color: yellow;
+				margin-bottom: 20px;
+				margin-top: 25px;
+				padding: 10px;
+				float: right;
+				border-left-style: solid;
+			}
+			#container2{
+				background-color: yellow;
+        		color: black;
+        		font-family: Lobster; 
+        		margin-top: 25px;
+        		font-size: 20px;
+        		padding: 25px;
+			}
+			ul, li{
+				font-family: Lora;
+			}
+           	body {
+        		background-color: yellow;
+        	}
+			section {
+				color: black;
+			}        	
+            #stark {
+            	height: 200px;
+                float: left;
+                margin-right: 25px;
+            }
+
+            #logo {
+            	height: 100px;
+            	float: left;
+            	margin-right: 25px;	
+            }	
+  			footer {
+        		background-color: red;
+        		color: white;
+        		font-family: Lora; 
+        		font-size: 20px;
+        		padding: 25px;
+        		border-radius: 20px;
+        		box-shadow: black 4px 4px 4px;
+        		overflow: hidden;
+        		clear: both;
+           	}
+           	div.titles{
+           		font-family: Oswald;
+           		text-align: right;
+           		border-bottom-style: solid;
+           	}
+           	div.navs{
+           		font-family: Lobster;
+           		text-align: left;
+           	}
+           	h3, p {
+           		font-family: Lora;
+           	}
+           	article {
+           		font-family: sans-serif;
+           	}
+		</style>
 </head>
 <body>
-
-<h1>Yo what's good?!?!</h1>
-
+	<header>
+		<img src="pfp.jpeg" id="stark" />
+		<h1>Anthony Edward "Tony" Stark</h1>
+        <h3><em>iron.man@starkindustries.com</em></h3>
+        <p><em>Seeking a position to be the CEO of the Strategic Homeland Intervention, Enforcement and Logistics Division (S.H.I.E.L.D).</em></p>
+	</header>
+	<div id="container">
+		<section>
+		<article>
+			<div class="titles">
+				<h2>Education</h2>
+			</div>
+				<ul>
+					<li><strong>Massachusetts Institute of Technology (MIT)</strong> <em>1983-1987</em></li>
+						<ul>
+							<li>Ph.D. Mechanical Engineering</li>
+							<li>Ph.D. Electrical Engineering</li>
+							<li>Ph.D. Physics</li>
+						</ul>
+				</ul>
+			<div class="titles">
+				<h2>Experience</h2>
+			</div>
+				<ul>
+					<li><strong>Iron Man</strong> <em>2000-Present</em></li>
+						<ul>
+							<li>Saving the world from terrorism.</li>
+						</ul>
+					<li><strong>CEO of Stark Industries</strong> <em>1991-Present</em></li>
+						<ul>
+							<li>Head of the technology company that develops and manufactures advanced weapon and defense technologies.</li>
+							<li>Manufactures the armour worn by Iron Man and War Machine.</li>
+							<li>Builds the helicarriers used by S.H.I.E.L.D, and it produces the Quinjets used by the Avengers.</li>
+						</ul>
+					<li><strong>S.H.I.E.L.D</strong> <em>2001-Present</em></li>
+						<ul>
+							<li>Monitor and deal with threats such as extraterrestrials, mutants, monsters and supervillains.</li>
+						</ul>
+					<li><strong>The Avengers</strong> <em>2005-Present</em></li>
+						<ul>
+							<li>Part of team known as the Earth's Mightiest Heroes who joined forces to take on threats that were too big for any one hero to tackle.</li>
+							<li>Regarded as Earth's No. 1 team.</li>
+						</ul>
+				</ul>
+			<div class="titles">
+				<h2>Technology</h2>
+			</div>
+				<ul>
+					<li>Genius level intellect that allows for the invention of a wide range of sophisticated devices, specializing in advanced weapons and armor.</li>
+					<li>Keen business mind.</li>
+				</ul>
+		</article>	
+		</section>
+	</div>
+	<div id="container2">
+		<section>
+			<article>
+					<div class="navs">
+						<h2>Navigation</h2>
+					</div>
+					Education<br>
+					Experience<br>
+					Technology
+			</article>
+		</section>
+	</div>
+	<footer>
+		<img src="logo.jpeg" id="logo" />
+		<h3>
+			<em>
+            	Stark Industries<br />
+            	200 Park Avenue, New York, NY 10166
+            </em>
+        </h3>
+	</footer>
 </body>
 </html>
