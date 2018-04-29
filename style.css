@@ -1,0 +1,64 @@
+#box1 { 
+  background-image: url("rotunda.jpg");
+  background-repeat: no-repeat;
+  background-size: 1400px 763px;
+  color: white;
+  padding-top: 75px; 
+  padding-bottom: 75px;
+}
+
+#box2 { 
+  background-color: DodgerBlue;
+  color: white;
+  padding-top: 50px; 
+  padding-bottom: 50px;
+}
+
+#box3 {
+  background-color: orange;
+  color: white;
+  padding-top: 20px; 
+  padding-bottom: 20px;
+}
+
+#icon {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+#who {
+  padding-bottom: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+#name {
+  padding-bottom: 25px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+#font {
+  margin-bottom: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+#footer {
+  margin-bottom: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+a:link {
+  color: rgb(120, 120, 120);
+}
+
+a:visited {
+  color: rgb(60, 60, 60);
+}
+
+a:hover {
+  color: black;
+}
