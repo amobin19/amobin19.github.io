@@ -1,11 +1,12 @@
-function myTimer() {
-    document.getElementById("demo").innerHTML = Date();
-}
-
 function refresh() {
-    var change = document.getElementById("myButton");
-    if (change.innerHTML == "Date and Time")
-    {
-        change.innerHTML = "Refresh";
+	var press = document.getElementById("myButton");
+    if (press.innerHTML == "Date and Time"){ // show date
+       	press.innerHTML = "Click for Time";
+    }
+    else if(press.innerHTML == "Click for Time"){
+    	press.innerHTML == "Click for Date";
+    }
+    else if(press.innerHTML == "Click for Date"){
+    	press.innerHTML == "Click for Time";
     }
 }
