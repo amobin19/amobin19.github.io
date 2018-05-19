@@ -1,7 +1,7 @@
 #box1 { 
-  background-image: url("rotunda.jpg");
+  background-image: url("rotundaSide.jpg");
   background-repeat: no-repeat;
-  background-size: 1400px 763px;
+  background-size: 100% 100%;
   color: white;
   padding-top: 75px; 
   padding-bottom: 75px;
