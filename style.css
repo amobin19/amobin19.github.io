@@ -60,15 +60,3 @@
 #demo {
   color: white;
 }
-
-a:link {
-  color: rgb(120, 120, 120);
-}
-
-a:visited {
-  color: rgb(60, 60, 60);
-}
-
-a:hover {
-  color: black;
-}
