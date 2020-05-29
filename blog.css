@@ -33,6 +33,13 @@ p {
 	color: #bdc3c7;
 }
 
+a {
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #bdc3c7;	
+}
+
 #slogan {
   display: block;
   margin-left: auto;
