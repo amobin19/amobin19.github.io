@@ -7,6 +7,10 @@ body {
 	background-color: black;
 }
 
+img {
+	width: 50%;
+}
+
 h4 {
 	color: #00FF00;
 	font-family: 'Source Sans Pro', sans-serif;
