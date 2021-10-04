@@ -49,9 +49,21 @@ a:hover {
 }
 
 #slogan {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#joey {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#bernie {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
 }
 
 .firstP {
